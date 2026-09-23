@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="50" viewBox="0 0 56 50">
+  <!-- ESD/高压警告三角，中心可改符号 -->
+  <path d="M28 4 L54 46 H2 Z" fill="none" stroke="#000000" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="25" y="18" width="6" height="14" fill="#000000"/>
+  <rect x="25" y="36" width="6" height="6" fill="#000000"/>
+</svg>
