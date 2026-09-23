@@ -7,19 +7,21 @@ PCB 丝印二维码指向的在线页面仓库。扫码打开：
 ## 目录结构
 
 ```
-index.html   主页面：BOM 表格、接线提示、PCB 图片
+index.html   主页面：接线提示 → PCB 图片 → BOM（BOM 在最后，简洁工程风）
 images/      图片素材（pcb-top.jpg / pcb-bottom.jpg / wiring.png）
 qrcode/      二维码文件（SVG 导入 PCB，PNG 预览）
 ```
 
+页面风格约定：**简洁、实用、工程风**（黑白表格为主，不要花哨样式）。
+
 ## 以后如何更新内容
 
-1. 修改 `index.html`（BOM 表格、接线文字）
+1. 修改 `index.html`（接线文字、BOM 表格）
 2. 图片放进 `images/`，并在 `index.html` 中引用（取消对应注释）
 3. 提交并推送：
 
 ```powershell
-cd D:\my_project\rv1106-toy
+cd D:\my_project\日常问题工作\rv1106-toy
 git add .
 git commit -m "更新BOM/接线内容"
 git push
