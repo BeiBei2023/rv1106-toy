@@ -1,20 +1,20 @@
 # PCB 丝印标识（silkmarks）
 
-黑白矢量 SVG，直接导入嘉立创EDA/立创EDA 丝印层（Top Silk/Bottom Silk）。
-黑色 = 丝印油墨，白色 = 无油墨（板底色）。
+每个标识同时提供 **SVG（矢量）+ PNG（位图）**，按 EDA 要求导入 PNG 即可。
+黑色 = 丝印油墨，白色 = 无油墨（板底色）。PNG 按 8 倍分辨率导出（文字/线条足够清晰）。
 
 ## 文件说明
 
-| 文件 | 用途 | 建议尺寸 |
+| 文件（同名 .svg / .png） | 用途 | 建议尺寸 |
 |------|------|----------|
-| 01-board-name.svg | 板名 `RV1106-TOY` | 宽 ≥ 25mm |
-| 02-version.svg | 版本 `V0.1 2026` | 宽 ≥ 12mm |
-| 03-pin1-dot.svg | 芯片 Pin1 圆点 | Ø 1~1.5mm |
-| 04-power-polarity.svg | 电源 `+ −` 极性 | 高 ≥ 1.5mm |
-| 05-warning-triangle.svg | 警告三角（中心可改符号） | 高 ≥ 4mm |
-| 06-qr-frame.svg | 二维码四角定位框 | 内框 ≥ 24mm（码 20mm 时） |
-| 07-usb-direction.svg | USB 方向示意 | 宽 ≥ 8mm |
-| 08-port-labels.svg | 接口文字 `MIC LSPK UART` | 按焊盘删改 |
+| 01-board-name | 板名 `RV1106-TOY` | 宽 ≥ 25mm |
+| 02-version | 版本 `V0.1 2026` | 宽 ≥ 12mm |
+| 03-pin1-dot | 芯片 Pin1 圆点 | Ø 1~1.5mm |
+| 04-power-polarity | 电源 `+ −` 极性 | 高 ≥ 1.5mm |
+| 05-warning-triangle | 警告三角（中心可改符号） | 高 ≥ 4mm |
+| 06-qr-frame | 二维码四角定位框 | 内框 ≥ 24mm（码 20mm 时） |
+| 07-usb-direction | USB 方向示意 | 宽 ≥ 8mm |
+| 08-port-labels | 接口文字 `MIC LSPK UART` | 按焊盘删改 |
 
 ## 丝印工艺约束（下单前核对）
 
