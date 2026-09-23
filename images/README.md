@@ -1,9 +1,9 @@
 # 图片素材命名约定
 
-| 文件名 | 用途 | 建议 |
+| 文件名 | 用途 | 状态 |
 |--------|------|------|
-| pcb-top.jpg | PCB 顶层照片/渲染图 | 宽 1200~1600px，单张 < 1MB |
-| pcb-bottom.jpg | PCB 底层 | 同上 |
-| wiring.png | 接线示意图 | 同上 |
+| pcb-top.png | PCB 顶层 3D | ✅ 已有 |
+| pcb-bottom.png | PCB 底层 3D | ✅ 已有 |
+| wiring.png | 接线示意图 | 待补充 |
 
-放入图片后，编辑根目录 `index.html`，取消 PCB 图片区域的 `img` 注释并确认 `src` 路径。
+替换图片时保持同名，`index.html` 无需改动；换其他格式需同步改 `src` 扩展名。
